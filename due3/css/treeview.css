@@ -1,0 +1,51 @@
+#treeview{
+    background-color: aliceblue;
+}
+
+/*
+#treeview ul {
+    padding-left: 0;
+}
+*/
+
+#treeview li {
+    list-style-type: none;
+}
+
+.item {
+    cursor: pointer;
+}
+
+.openList {
+    position: relative;
+    display: inline-block;
+}
+
+.section {
+    position: relative;
+    display: inline-block;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.listAlts {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.alt {
+    position: relative;
+    display: inline-block;
+}
+
+#treeview.alt li {
+
+}
+
+.newAlt {
+    position: relative;
+    display: inline-block;
+}
