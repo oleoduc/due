@@ -22,13 +22,13 @@
                 @click="addAlt">
                 {{model.newAlt}}
             </div>
-            <ul v-show="open" v-if="isFolder" id="{{model.id+1}}">
+            <ul v-if="isFolder" id="{{model.id+1}}">
                 <item
                     class="item"
                     v-for="model in model.children"
                     :model="model">
                 </item>
-                <li @click="addChild(model)">+</li>
+                <li @click="addChild()">+</li>
             </ul>
         </li>
     </div>

@@ -39,10 +39,7 @@
 .alt {
     position: relative;
     display: inline-block;
-}
-
-#treeview.alt li {
-
+    vertical-align: top;
 }
 
 .newAlt {
